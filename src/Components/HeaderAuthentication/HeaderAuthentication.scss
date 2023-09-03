@@ -1,0 +1,25 @@
+@import "../../Settings/import";
+.auth__header {
+  background: #3B5998;
+  padding: 30px 0;
+
+}
+
+.auth__header-logo {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  img{
+    max-width: 200px;
+  }
+}
+
+.auth__header-search {
+  width: 100%;
+  max-width: 500px;
+}
+
+.input-group-text {
+  --bs-tertiary-bg: #F1F2F6;
+  @include InterRegular(20px,#65676B,25px)
+}

@@ -1,0 +1,9 @@
+@import "../../../Settings/import";
+
+.ButtonSecondary {
+  background: #6C757C;
+  border-radius: 3px;
+  @include InterRegular(16px, #FFFFFF, 19px);
+  width: 100%;
+  padding: 10px;
+}

@@ -1,0 +1,38 @@
+.Form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+
+  &__checkbox {
+    margin-bottom: 44px;
+    margin-top: 5px;
+  }
+
+
+}
+
+.form-control {
+  
+color: #757575;
+  font-weight: 400;
+  font-size: 16px;
+  border: 1px solid #BDBDBD;
+}
+
+.form-select {
+    color:  #757575;
+    font-weight: 400;
+    font-size: 16px;
+    border: 1px solid #BDBDBD;
+}
+
+.form-control-lg {
+  padding: .75rem 1rem;
+}
+
+.react-tel-input .form-control {
+  padding: 0.75rem 14px 0.75rem 60px !important;
+  width: 100% !important;
+}
+

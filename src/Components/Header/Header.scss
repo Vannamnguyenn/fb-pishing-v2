@@ -1,0 +1,47 @@
+@import "../../Settings/import";
+.header {
+  display: flex;
+  justify-content: space-between;
+  margin: 25px 20px;
+}
+
+.navbar-brand img {
+  margin-top: -7px;
+}
+
+.navbar-nav {
+  gap: 35px;
+  margin-left: 65px;
+}
+
+.nav-link {
+  @include InterMedium(16px,#777777,19px);
+}
+
+.btn,
+.btn:hover,
+.btn:active,
+.btn:focus-visible {
+  @include InterMedium(16px,#FFFFFF,19px);
+  background: #354753;
+  border-radius: 5px;
+  padding: 13px 20px;
+  border: none;
+  --bs-btn-active-color: #FFFFFF;
+  --bs-btn-active-bg: #354753;
+  --bs-btn-active-border-color: none;
+}
+
+.main__header-info {
+  display: flex;
+  justify-content: space-between;
+  margin: 45px 20px 5px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+}
+
+.main__header-bg {
+  width: 100%;
+  max-width: 100%;
+}

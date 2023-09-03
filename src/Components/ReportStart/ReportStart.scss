@@ -1,0 +1,26 @@
+@import "../../Settings/import";
+
+.ReportStart {
+  &__title {
+    text-align: center;
+    margin: 36px 0 15px;
+    @include InterBold(24px, #181818, 29px)
+  }
+
+  &__description {
+    background: #E2E3E5;
+    margin: 0 auto;
+    padding: 12px 28px;
+    width: 100%;
+  }
+
+  &__content {
+    @include InterLight(14px, #000000, 17px)
+  }
+
+  &__report {
+    padding-top: 12px;
+    @include InterSemiBold(14px, #181818, 17px)
+  }
+}
+

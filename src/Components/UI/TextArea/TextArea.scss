@@ -1,0 +1,17 @@
+@import "../../../Settings/import";
+
+.TextArea {
+  &__label {
+    @include InterSemiBold(16px, #181818, 19px);
+    margin-bottom: 8px;
+  }
+
+  &__textarea {
+    background: #FFFFFF;
+    border: 1px solid #BDBDBD;
+    border-radius: 5px;
+    width: 100%;
+    padding: 16px;
+    resize: none;
+  }
+}

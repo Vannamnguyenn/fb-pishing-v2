@@ -1,0 +1,161 @@
+.banner {
+  position: relative;
+  padding: 14.5vh 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  &-bg {
+    position: absolute;
+    inset: 0;
+    background-color: rgba(36, 55, 96, 0.7);
+  }
+  &-content {
+    position: absolute;
+    inset: 0;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 0 20px;
+    & h5,
+    h1 {
+      color: #fff;
+    }
+    & h5 {
+      font-size: 14px;
+      font-family: "Freight Sans LF Pro Semibold", Helvetica, Arial, sans-serif;
+      text-rendering: optimizelegibility;
+      letter-spacing: 4px;
+      font-weight: 600;
+      margin-bottom: 2.8vh;
+    }
+
+    & h1 {
+      font-family: "Freight Sans LF Pro Light", Helvetica, Arial, sans-serif !important;
+      text-rendering: optimizelegibility;
+      font-weight: 200;
+      letter-spacing: 2px;
+      font-size: 40px;
+    }
+  }
+
+  @media (min-width: 700px) {
+    padding: 12vh 0;
+  }
+}
+
+.body {
+  display: flex;
+  flex-direction: column;
+  .wrap-title {
+    text-align: center;
+    margin-top: 8vh;
+
+    h2 {
+      font-weight: 600;
+      font-size: 18px;
+      margin-bottom: 10px;
+    }
+
+    p {
+      font-size: 14px;
+      color: #1c1b1bd9;
+    }
+  }
+
+  .form-wrapper {
+    border: 0.5px solid rgba(0, 0, 0, 0.4);
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    max-width: 700px;
+    padding: 25px 15px;
+    width: 90%;
+    margin: auto;
+    margin-top: 4vh;
+
+    & h3 {
+      color: #000000bf;
+      font-size: 16px;
+      font-weight: 700;
+      margin-bottom: 10px;
+    }
+
+    & .select-issue {
+      text-align: left;
+      & b {
+        font-size: 14px;
+        font-weight: 700;
+        color: #000000bf;
+        margin-bottom: 8.5px;
+        display: inline-block;
+      }
+      & label {
+        font-size: 14px;
+        color: #222222d9;
+      }
+
+      & .form-check {
+        box-shadow: 0 0 1px rgba(0, 0, 0, 0.1), 0 0 4px rgba(0, 0, 0, 0.1);
+        padding: 15px;
+        border-radius: 8px;
+        display: flex;
+        align-items: center;
+      }
+
+      & input {
+        margin: 0;
+      }
+
+      & button {
+        display: flex;
+        color: #000000d9;
+        align-items: center;
+        padding: 10px 20px;
+        border-radius: 6px;
+        font-size: 16px;
+        cursor: default;
+        margin-top: 1rem;
+
+
+        &:hover {
+          opacity: 0.8;
+        }
+        & img {
+          width: 14px;
+          height: 14px;
+          margin-left: 5px;
+        }
+
+        &.active {
+          background-color: #0d6efd;
+          color: #fff;
+          cursor: pointer;
+        }
+      }
+    }
+  }
+}
+
+.form-send-wrapper {
+      border: 0.5px solid rgba(0, 0, 0, 0.4);
+      border-radius: 8px;
+      display: flex;
+      flex-direction: column;
+      max-width: 700px;
+      padding: 25px 20px;
+      width: 90%;
+      margin: auto;
+      margin-top: 4vh;
+     text-align: left;
+
+      & h3 {
+          color: #000000bf;
+          font-size: 16px;
+          font-weight: 700;
+          text-align: center;
+          margin-bottom: 1.5rem;
+
+      }
+    }

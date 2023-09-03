@@ -1,0 +1,12 @@
+@import "../../Settings/import";
+.main__header-info {
+  display: flex;
+  justify-content: space-between;
+  margin: 45px 20px 5px;
+  @include InterRegular(16px,#181818,19px);
+}
+
+.main__header-bg {
+  width: 100%;
+  max-width: 100%;
+}

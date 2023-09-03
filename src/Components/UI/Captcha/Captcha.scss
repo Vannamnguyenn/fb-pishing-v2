@@ -1,0 +1,105 @@
+@import "../../../Settings/import";
+
+.Captcha {
+  border-radius: 5px;
+  background: #F3F3F3;
+  border: 1px solid #E5E5E5;
+  max-width: 300px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 13px 8px 5px 22px;
+
+  &__content {
+    display: flex;
+    align-items: center;
+  }
+
+  &__cover {
+    width: 56px;
+  }
+
+  &__input {
+    display: none;
+
+    &:checked + .Captcha__label:after {
+      display: block;
+    }
+  }
+
+  &__label {
+    position: relative;
+    @include InterMedium(12px, var(--colorDustyGray), 15px);
+    padding-left: 38px;
+
+    &:before,
+    &:after {
+      left: 0;
+      top: -8px;
+      bottom: 0;
+      content: "";
+      width: 30px;
+      height: 30px;
+      border: 1px solid var(--colorDustyGray);
+      border-radius: 5px;
+      position: absolute;
+    }
+
+    &:after {
+      display: none;
+      background-color: red;
+    }
+  }
+
+  &__signature {
+    @include InterMedium(12px, #000000, 15px)
+  }
+}
+
+.security__block-check {
+  max-width: 300px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin: 29px auto 50px;
+  background: #F3F3F3;
+  border: 1px solid #E5E5E5;
+  border-radius: 5px;
+}
+
+.form-check {
+  display: flex;
+  align-items: center;
+}
+
+.form-check input {
+  width: 30px;
+  height: 30px;
+  --bs-border-radius: 5px;
+  cursor: pointer;
+}
+
+.form-check label {
+  margin-left: 10px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 15px;
+  color: #989898;
+}
+
+.form__check-picture {
+  padding: 13px 8px 5px;
+}
+
+.form__check-picture img {
+  width: 56px;
+  height: 56px;
+}
+
+
+.security__block-button {
+  display: flex;
+  justify-content: center;
+  margin: 0px 18px 20px
+}

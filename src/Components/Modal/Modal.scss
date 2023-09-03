@@ -1,0 +1,57 @@
+@import '../../Settings/import';
+
+.modal {
+  display: none;
+  background: rgba(0, 0, 0, 0.55);
+
+  &-dialog {
+  
+  }
+
+  &-content {
+    
+  }
+
+  &-header {
+    padding: 38px 44px 0 44px;
+    margin-bottom: 46px;
+  }
+
+  &-body {
+    padding: 0 20px;
+  }
+
+  &__active {
+    display: block;
+  }
+
+  &-title {
+    @include InterBold(24px, #181818, 29px);
+  }
+
+  &__body-description {
+    @include InterRegular(16px, #65676b, 19px);
+    margin-bottom: 25px;
+  }
+
+  &__body-password {
+    position: relative;
+    margin-bottom: 29px;
+
+    p {
+      position: absolute;
+      top: calc(100% + 4px);
+    }
+  }
+
+  &-footer {
+    --bs-modal-footer-border-width: 0px;
+    --bs-modal-footer-border-color: transparent;
+    gap: 2px;
+    padding: 0 40px;
+  }
+
+  &__btn {
+    width: 120px;
+  }
+}

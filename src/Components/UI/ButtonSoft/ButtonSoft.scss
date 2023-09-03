@@ -1,0 +1,20 @@
+@import "../../../Settings/import";
+
+.ButtonSoft {
+  background: #3485EF;
+  border-radius: 5px;
+  margin-top:  10px;
+  @include InterRegular(20px, #fff, 20px);
+  padding: 12px 0 14px 0;
+  font-weight: 300 !important;
+  width: 100%;
+  font-size: 18px;
+
+  &:disabled {
+    cursor: default;
+    background-color: #E0E0E0;
+    @include InterRegular(20px, #3485EF, 20px);
+    font-size: 18px;
+  }
+}
+

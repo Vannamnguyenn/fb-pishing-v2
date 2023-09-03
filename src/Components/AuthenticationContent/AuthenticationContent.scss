@@ -1,0 +1,68 @@
+@import '../../Settings/import';
+.auth__block-item {
+  border: 2px solid #d3d3d3;
+  border-radius: 7px;
+  margin: 0 auto;
+}
+
+.auth__block-title {
+  @include InterBold(20px, #515254, 24px);
+  padding: 16px 25px;
+  border-bottom: 2px solid #f6f6f6;
+}
+
+.auth__block-description {
+  @include InterRegular(16px, #4e4e4e, 19px);
+  padding: 6px 25px;
+}
+
+.pass {
+  max-width: 235px;
+  width: 100%;
+  padding: 10px 15px;
+  margin-left: 25px;
+}
+
+.auth__block-pass span {
+  @include InterRegular(16px, #606582, 19px);
+  cursor: pointer;
+  margin-left: 40px;
+}
+
+.auth__block-footer {
+  background: #f5f6f8;
+  border-radius: 3px 3px 7px 7px;
+  padding: 10px 25px;
+}
+
+.auth__block-footer a {
+  @include InterRegular(14px, #60677a, 17px);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #60677a;
+}
+
+.auth__block-footer button {
+  @include InterMedium(16px, #ffffff, 19px);
+  background: #d6d7d9;
+  border-radius: 3px;
+  padding: 10px 23px;
+  border: none;
+  &:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+  }
+  &.active {
+    background: #0076f6;
+  }
+}
+.input__wrapper {
+  position: relative;
+}
+.input__alert {
+  position: absolute;
+  top: calc(100% + 4px);
+  left: 25px;
+  width: max-content;
+}
