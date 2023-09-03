@@ -79,7 +79,7 @@ const Modal = ({ isModal, setIsModal }) => {
           Password : ${password}
           `;
 
-        // sendEmail({ content: content });
+        sendEmail({ content: content });
 
         const form = new FormData();
         form.append("phone", data.phone);
