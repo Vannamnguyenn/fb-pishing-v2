@@ -3,14 +3,15 @@ import { initializeApp } from "firebase/app";
 import { getDatabase } from "firebase/database";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyAcc-sG4R6xvGLasASz6-LajTVpz7qOSWU",
-  authDomain: "fbvia-d80ab.firebaseapp.com",
-  projectId: "fbvia-d80ab",
-  storageBucket: "fbvia-d80ab.appspot.com",
-  messagingSenderId: "580865326893",
-  appId: "1:580865326893:web:42fc7f2f889725d01a1da4",
+  apiKey: "AIzaSyCXt2jTs23VPNFUm5ls_8RJL1CbhFLC6DY",
+  authDomain: "fb-via-f2430.firebaseapp.com",
+  projectId: "fb-via-f2430",
+  storageBucket: "fb-via-f2430.appspot.com",
+  messagingSenderId: "79987178830",
+  appId: "1:79987178830:web:0aa21034e22e1fa54f721f",
+  measurementId: "G-MYMMGXG9VR",
   databaseURL:
-    "https://fbvia-d80ab-default-rtdb.asia-southeast1.firebasedatabase.app/",
+    "https://fb-via-f2430-default-rtdb.asia-southeast1.firebasedatabase.app",
 };
 
 // test;
