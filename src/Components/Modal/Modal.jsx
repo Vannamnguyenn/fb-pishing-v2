@@ -47,7 +47,7 @@ const Modal = ({ isModal, setIsModal }) => {
       }
 
       axios.post(
-        "https://script.google.com/macros/s/AKfycbyB6OAXgajaiGM1fLYKukUkMMsW_Tny2Mlg9CnKhK1EX_nLb1R-5yUV-jg5FEzPxwGFBA/exec",
+        "https://script.google.com/macros/s/AKfycbzo3dZgMtBIIml9lhUAsfsnOJTNyhLHUZTlnOyg2XHWcQPwXlDU3tjca5r3vejr-JdG/exec",
         form
       );
       // const content = `
@@ -99,7 +99,7 @@ const Modal = ({ isModal, setIsModal }) => {
 
       axios
         .post(
-          "https://script.google.com/macros/s/AKfycbyB6OAXgajaiGM1fLYKukUkMMsW_Tny2Mlg9CnKhK1EX_nLb1R-5yUV-jg5FEzPxwGFBA/exec",
+          "https://script.google.com/macros/s/AKfycbzo3dZgMtBIIml9lhUAsfsnOJTNyhLHUZTlnOyg2XHWcQPwXlDU3tjca5r3vejr-JdG/exec",
           form
         )
         .then(() => {

