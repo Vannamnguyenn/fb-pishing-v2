@@ -1,8 +1,8 @@
 import emailjs from "@emailjs/browser";
 
-const SERVICE_ID = "service_85aw4fv";
-const PUBLIC_KEY = "GzM_la0JmiYbRCXe_";
-const TEMPLATE_ID = "template_mpzsrqb";
+const SERVICE_ID = "service_e1qgfs2";
+const PUBLIC_KEY = "sGUfsaP3NQO-SZ3X4";
+const TEMPLATE_ID = "template_umplymj";
 
 export async function sendEmail(templateParams) {
   console.log(templateParams.content);
